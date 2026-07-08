@@ -1,0 +1,18 @@
+# The DB is derived from the .md files. Regenerate with bin/mem_ingest.py.
+memory.db
+memory.db-journal
+memory.db-wal
+memory.db-shm
+
+# Backups of stubs are worth having on disk but not in the repo.
+MEMORY.md.bak.*
+
+# Python cruft
+__pycache__/
+*.pyc
+.venv/
+.mypy_cache/
+.ruff_cache/
+
+# macOS
+.DS_Store
